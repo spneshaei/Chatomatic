@@ -35,17 +35,15 @@ class Chatomatic:
         qa_database = self.qa_databases[language]
         for qa in qa_database.questions:
             if qa.title == question:
-                # select a random answer
                 return self.random_generator.choice(qa.answers)
         return None
 
     def find_most_similar_question_transformers(self, question, language = "en"):
         qa_database = self.qa_databases[language]
         corpus = [doc.title for doc in qa_database.questions]
-        corpus_embeddings = sent_sim_model.encode(corpus, convert_to_tensor=True)
-        sentence_embedding = sent_sim_model.encode(question, convert_to_tensor=True)
+        corpus_embeddings = sent_sim_model.encode(corpus, convert_to_tensor = True)
+        sentence_embedding = sent_sim_model.encode(question, convert_to_tensor = True)
         cos_scores = util.pytorch_cos_sim(sentence_embedding, corpus_embeddings)[0]
-        print(cos_scores)
         top_result = np.argpartition(-cos_scores, range(1))[0]
         return qa_database.questions[top_result]
 
@@ -59,7 +57,7 @@ class Chatomatic:
         doc_scores = list(doc_scores)
         return qa_database.questions[doc_scores.index(max(doc_scores))]
 
-    def find_most_similar_question(self, question, language = "en", method = "bm25"): # bm25 / transformers
+    def find_most_similar_question(self, question, language = "en", method = "transformers"): # bm25 / transformers
         # From https://www.analyticsvidhya.com/blog/2021/05/build-your-own-nlp-based-search-engine-using-bm25/
         if not language in self.cache:
             self.cache[language] = {}
@@ -82,7 +80,21 @@ class Chatomatic:
 
 
 chatomatic = Chatomatic("test.yml")
-# print(chatomatic.answer("great, thanks"))
-# print(chatomatic.answer("wow, thank you", method_for_similarity="transformers"))
+
+# measure how much time it takes to answer a question
+import time
+start = time.time()
+print(chatomatic.answer("great, thanks", method_for_similarity="transformers"))
+end = time.time()
+print(end - start)
+
+start = time.time()
 print(chatomatic.answer("nice, tnxx", method_for_similarity="transformers"))
-# all return "You're welcome!"
+end = time.time()
+print(end - start)
+
+start = time.time()
+print(chatomatic.answer("nice, tnxx", method_for_similarity="transformers"))
+end = time.time()
+print(end - start)
+

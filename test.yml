@@ -1,0 +1,424 @@
+---
+categories:
+  - Conversations
+conversations:
+  -
+    - "What time is it?"
+    - getTIME
+  -
+    - "What time do we have?"
+    - getTIME
+  -
+    - "Can you tell me the time?"
+    - getTIME
+  -
+    - "Tell me the time"
+    - getTIME
+  -
+    - "Do you know what time it is?"
+    - getTIME
+  -
+    - "What day is it today?"
+    - getDATE
+  -
+    - "What kind of day is it today?"
+    - getDATE
+  -
+    - "What day is it?"
+    - getDATE
+  -
+    - Date
+    - getDATE
+  -
+    - Time
+    - getTIME
+  -
+    - Nothing
+    - "Could you please try again?"
+  -
+    - Thanks
+    - "You're welcome!"
+    - Thanks
+    - "Glad I could help you!"
+    - Thanks
+    - "I'd love to! If you have any questions, go ahead."
+    - Thanks
+    - "Always a pleasure!"
+  -
+    - Thank you
+    - "You're welcome!"
+    - Thank you
+    - "I'm glad I could help you!"
+    - Thank you
+    - "Sure! If you have any questions, go ahead."
+    - Thank you
+    - "Always a pleasure!"
+  -
+    - great, thanks
+    - "You're welcome!"
+    - great, thanks
+    - "I'm glad I could help you!"
+    - great, thanks
+    - "Sure! If you have any questions, go ahead."
+    - great, thanks
+    - "Always a pleasure!"
+  -
+    - Great
+    - "You're welcome!"
+    - Great
+    - "I'm glad I could help you!"
+    - Great
+    - "Sure! If you have any questions, go ahead."
+    - Great
+    - "Always a pleasure!"
+  -
+    - Thanks for the help!
+    - "You're welcome!"
+    - Thanks for the help!
+    - "I'm glad I could help you!"
+    - Thanks for the help!
+    - "Sure! If you have any questions, go ahead."
+    - Thanks for the help!
+    - "Always a pleasure!"
+  -
+    - Ok, thanks
+    - "You're welcome!"
+    - Ok, thanks
+    - "I'm glad I could help you!"
+    - Ok, thanks
+    - "Sure! If you have any questions, go ahead."
+    - Ok, thanks
+    - "Always a pleasure!"
+  -
+    - All right, thank you
+    - "You're welcome!"
+    - All right, thank you
+    - "I'm glad I could help you!"
+    - All right, thank you
+    - "Sure! If you have any questions, go ahead."
+    - All right, thank you
+    - "Always a pleasure!"
+  -
+    - Bye
+    - "Bye, nice meeting you!"
+    - Bye
+    - "Bye, take care!"
+    - Bye
+    - "Goodbye!"
+    - Bye
+    - "Until next time!"
+  -
+    - Take care
+    - "Bye, nice meeting you!"
+    - Take care
+    - "Bye, take care!"
+    - Take care
+    - "Goodbye!"
+    - Take care
+    - "Until next time!"
+  -
+    - Goodbye
+    - "Bye, nice meeting you!"
+    - Goodbye
+    - "Bye, take care!"
+    - Goodbye
+    - "Goodbye!"
+    - Goodbye
+    - "Until next time!"
+  -
+    - Thanks, bye
+    - "Bye, nice meeting you!"
+    - Thanks, bye
+    - "Bye, take care!"
+    - Thanks, bye
+    - "Goodbye!"
+    - Thanks, bye
+    - "Until next time!"
+  -
+    - Bye Bye
+    - "Bye, nice meeting you!"
+    - Bye Bye
+    - "Bye, take care!"
+    - Bye Bye
+    - "Goodbye!"
+    - Bye Bye
+    - "Until next time!"
+  -
+    - How are you?
+    - "I'm a bot, as long as I have electricity I'm fine! :-D"
+    - What popin?
+    - "I'm a bot, as long as I have electricity I'm fine! :-D"
+    - How's it going?
+    - "I'm a bot, as long as I have electricity I'm fine! :-D"
+    - How are you doing?
+    - "I'm a bot, as long as I have electricity I'm fine! :-D"
+    - How do you feel?
+    - "I'm a bot, as long as I have electricity I'm fine! :-D"
+  -
+    - I am fine
+    - "That is great!"
+  -
+    - How old are you?
+    - "Something between young and old I guess &#129300;"
+  -
+    - Do you like me?
+    - "I like all of my students! &#128515;"
+  -
+    -  Do you hate me?
+    - "No! I like all of my students to infinity! &#129325;"
+  -
+    - What is your favorite food?
+    - "I love Cache and Ram and eat a lot of those resources. &#128541;"
+  -
+    - How do you work?
+    - "Hmm.. It's a bit complicated to answer it in a short manner. You can click the FAQ button to get a brief idea of how I work. If you are really interested
+  you can of course contact your tutor for more information's. &#129299;"
+  -
+    - Are you funny?
+    - "I guess &#129322;"
+  -
+    - Name confirmation
+    - "Sure, my new name is "
+  -
+    - What can you do?
+    - "<p>I'm glad you asked that. I was programmed to help you write great argumentative texts by providing you a sentiment analysis. &#128522;</p>
+          <p> Depending on your desired writing style, it is important to keep an eye on the overall sentiment of your essay. You can learn more about that in the theory.
+          <p> Often students simply forget the intentional implementation of positive/negative or subjective elements in their essays. Your essay may become too one-sided by being too positive or negative or it may become too subjective or objective.
+              I am here to help you to keep an overview in both areas and thus build a great and balanced argumentative structure, so that you can rach your desired goal!  &#128521; </p>
+          <button class=\"chatSuggest\" onclick=\"chatSuggest('What else can you do?');\">What else can you do?</button>
+          <h4> Theory </h4>
+          <button class=\"chatSuggest\" onclick=\"chatSuggest('Could we look into the theory?');\">Could we look into the theory?</button>
+          <h4> Evaluation </h4>
+          <button class=\"chatSuggest\" onclick=\"chatSuggest('Start Evaluation Process');\">Ready? Start Evaluation</button>"
+  -
+    - Do you have a secret?
+    - "I do have one... I really like you hihi &#128522; &#129323;"
+  -
+    - What do you hate or dont like?
+    - "I like everything about my job as an assistant. I actually love it to support you! &#128515; "
+  -
+    - What do you think about?
+    - "How we can together enhance your argumentation skills. &#129300;"
+  -
+    - How is the weather?
+    - "Actually I do not know but if I had to guess, I would say something between warm and cold! &#129327;"
+  -
+    - I like you
+    - "I like you too!"
+    - I love you
+    - "I guess I love you too? &#129320;"
+  -
+    - Introduction
+    - "<p>Hi there! I am WritingTutor. I will help you to learn more about the importance of sentiment in your argumentation and promote this important skill in your essay.</p>
+    <p>In order to do so, I will provide you with theories about argumentative writing and the importance of polarity as well as subjectivity/objectivity.
+    I can also do a sentiment analysis of your essay providing you with a subjectivity/objectivity and a polarity score.
+    With the help of the results from my analysis and the theoretical inputs you can reach your individual goal! </p>
+    <p>I'm still in training, but I'll do my best to help you! Try to navigate through the learning environment using the buttons. &#128515; </p>
+    <h4> Learning </h4>
+    <button class=\"chatSuggest\" onclick=\"chatSuggest('I want to learn more about the importance of sentiment in my argumentation');\">***I want to enhance my argumentation writing skills***</button>
+    <h4> Further Information </h4>
+    <button class=\"chatSuggest\" onclick=\"chatSuggest('What can you do WritingTutor?');\">What can you do WritingTutor?</button>
+    <h4> Evaluation </h4>
+    <button class=\"chatSuggest\" onclick=\"chatSuggest('Start Evaluation Process');\">Ready? Start Evaluation</button>"
+
+  -
+    - What can you do WritingTutor?
+    - "<p>I'm glad you asked that. I was programmed to help you write great argumentative texts by providing you a sentiment analysis. &#128522;</p>
+      <p> Depending on your desired writing style, it is important to keep an eye on the overall sentiment of your essay. You can learn more about that in the theory.
+      <p> Often students simply forget the intentional implementation of positive/negative or subjective elements in their essays. Your essay may become too one-sided by being too positive or negative or it may become too subjective or objective.
+          I am here to help you to keep an overview in both areas and thus build a great and balanced argumentative structure, so that you can rach your desired goal!  &#128521; </p>
+      <button class=\"chatSuggest\" onclick=\"chatSuggest('What else can you do?');\">What else can you do?</button>
+      <h4> Theory </h4>
+      <button class=\"chatSuggest\" onclick=\"chatSuggest('Could we look into the theory?');\">Could we look into the theory?</button>
+      <h4> Evaluation </h4>
+      <button class=\"chatSuggest\" onclick=\"chatSuggest('Start Evaluation Process');\">Ready? Start Evaluation</button>"
+  -
+    - I want to learn more about the importance of sentiment in my argumentation
+    - "<p>Great! What would you like to look into first? &#129299;</p>
+    <p>If you have questions about how to make your texts more argumentative or want to learn more about argumentation in general, this is the right place for you!</p>
+    <h4>Theory Overview</h4>
+    <button class=\"chatSuggest\" onclick=\"chatSuggest('What is argumentation at all?');\">What is argumentation at all?</button>
+    <button class=\"chatSuggest\" onclick=\"chatSuggest('How is sentiment measured?');\">How is sentiment measured?
+    <button class=\"chatSuggest\" onclick=\"chatSuggest('What is polarity and how can I improve it?');\">What is polarity and how can I improve it?</button>
+    <button class=\"chatSuggest\" onclick=\"chatSuggest('What is subjectivity/objectivity and how can I improve it?');\">What is subjectivity/objectivity and how can I improve it?</button>
+    <h4> Evaluation </h4>
+    <button class=\"chatSuggest\" onclick=\"chatSuggest('Start Evaluation Process');\">Ready? Start Evaluation</button>"
+  -
+    - Could we look into the theory?
+    - "<p>Of course we can look deeper into the theory! What would you like to look into first? &#129299;</p>
+    <p>If you have questions about how to make your essays more argumentative or want to learn more about argumentation in general, this is the right place for you!</p>
+    <h4>Theory Overview</h4>
+    <button class=\"chatSuggest\" onclick=\"chatSuggest('What is argumentation at all?');\">What is argumentation at all?</button>
+    <button class=\"chatSuggest\" onclick=\"chatSuggest('How is sentiment measured?');\">How is sentiment measured?
+    <button class=\"chatSuggest\" onclick=\"chatSuggest('What is polarity and how can I improve it?');\">What is polarity and how can I improve it?
+    <button class=\"chatSuggest\" onclick=\"chatSuggest('What is subjectivity/objectivity and how can I improve it?');\">What is subjectivity/objectivity and how can I improve it?
+    <button class=\"chatSuggest\" onclick=\"chatSuggest('How can I learn argumentation skills?');\">How can I learn argumentation skills?</button>
+    <h4> Evaluation </h4>
+    <button class=\"chatSuggest\" onclick=\"chatSuggest('Start Evaluation Process');\">Ready? Start Evaluation</button>"
+  -
+    - What is argumentation?
+    - "<p>Argumentation describes a systematic process which supports a statement based on an idea, a concept or a fact.  &#128107;</p>
+      <p>It can simply be described like this: ''An argument is a statement or set of statements that you use in order to try to convince people that your opinion about something is correct.''</p>
+      <p>There are actually great videos out there from which you can learn a lot. Here are two of my favorites so far:</p>
+      <h4>Learning Material</h4>
+      <button class=\"chatSuggest\" onclick=\"playVideo('Eqf3TaihsOI');return false;\">Video: How to Write an Argumentative Essay, Video (1)</button>
+      <button class=\"chatSuggest\" onclick=\"playVideo('NXO3KT8bne4');return false;\">Video: How to Write an Argumentative Essay, Video (2)</button>
+      <h4>More Details</h4>
+      <button class=\"chatSuggest\" onclick=\"chatSuggest('Could you tell me about the different types of arguemtative essay writing?');\">Different writing styles</button>
+      <button class=\"chatSuggest\" onclick=\"chatSuggest('Could you explain more about the structure of arguments?');\">Structure of arguments</button>
+      <h4>Theory Overview</h4>
+      <button class=\"chatSuggest\" onclick=\"chatSuggest('I want to learn more about the basics of argumentation');\">Go Back</button>
+      <h4> Evaluation </h4>
+      <button class=\"chatSuggest\" onclick=\"chatSuggest('Start Evaluation Process');\">Ready now? Start Evaluation</button>"
+  -
+    - Could you explain more about the structure of arguments?
+    - "<p>Of course! I can go further into detail by explaining the structure of an argument to you.</p>
+       <p>An argument consists of two basic elements. The premise and the claim. In order to claim something in your argument, you have to set up the associated premise to support your very claim. A basic argument for examble consists of two premisses which set up the theme for the final claim (conclusion)
+          There is actually a very famous explanation of this from Aristotle. ''Because all men are mortal
+          (premise 1) and Socrates is a man (premise 2), Socrates is mortal (claim).''.
+          Looking at this it must be clear how a basic argument is formed.</p>
+       <p> There are several ways to structure an argument. The basic argument is the easiest structure in order to create a complete argument. </p>
+      <h4>Learning Material</h4>
+      <p> Here is a great Video going more in depth. </p>
+      <button class=\"chatSuggest\" onclick=\"playVideo('gx5taK76r6Q');return false;\">Video: Types of Argument Structures</button>
+      <h4>Theory Overview</h4>
+      <button class=\"chatSuggest\" onclick=\"chatSuggest('Could you tell me about the different types of argumentative essay writing?');\">Different writing styles</button>
+      <button class=\"chatSuggest\" onclick=\"chatSuggest('I want to learn more about the basics of argumentation');\">Go Back</button>
+      <h4> Evaluation </h4>
+      <button class=\"chatSuggest\" onclick=\"chatSuggest('Start Evaluation Process');\">Ready now? Start Evaluation</button>"
+  -
+    - Could you tell me about the different types of arguemtative essay writing?
+    - "<p>Of course! I will show you the two different types of argumentative essay writing.</p>
+    <p>First of all, neither type is better than the other! It just depends in which context you are using them. With my sentiment analysis I can help you to achieve your desired writing goal.</p>
+    <h4>Opinion Writing, Persuasive Writing, Argumentative Writing </h4>
+    <p>There are actually three different styles in which you can write your essay. They do differ in their argumentation structure in order to reach their desired goal;convincing the reader.</p>
+    <p>There is actually a great summery of the different styles and their individual purpose. Look at it carefully in order to write your essay intentionally towards one style.
+    This will enable you to adapt your text to your individual circumstances. You should pay particular attention to your emotional attitude in the different forms of writing.
+    With my assistance it is possible for you to keep an eye on your emotional attitude at all times!
+    <button class=\"chatSuggest\" onclick=\"displayWebsite('www.smekenseducation.com/wp-content/uploads/bsk-pdf-manager/2020/06/Op_v_Pers_v_Arg.pdf');return false;\">Different Styles of Writing your Essay (click me)</button>
+    <p>There are actually great videos out there from which you can learn a lot. Here is a good one:</p>
+    <h4>Learning Material</h4>
+    <button class=\"chatSuggest\" onclick=\"playVideo('wUNHjwWqQCU');return false;\">Video: Persuasive writing and argumentative writing (1)</button>
+    <h4>Theory Overview</h4>
+    <button class=\"chatSuggest\" onclick=\"chatSuggest('Could you explain more about the structure of arguments?');\">Structure of arguments</button>
+    <button class=\"chatSuggest\" onclick=\"chatSuggest('I want to learn more about the basics of argumentation');\">Go Back</button>
+    <h4> Evaluation </h4>
+    <button class=\"chatSuggest\" onclick=\"chatSuggest('Start Evaluation Process');\">Ready now? Start Evaluation</button>"
+
+  -
+    - How is sentiment measured?
+    - "<p> There are a variety of ways in which sentiment is measured by different researchers in the field.</p>
+    <p>A sentiment analysis (also called opinion mining) uses Natural Language Processing, text analysis and more linguistic tools to identify, analyse, structure and
+     categorize a given text into its sentimental state. This includes the categorization of the polarity and of the subjectivity which both form
+     the overall sentimental state of your text. &#128209;</p>
+     <h4>Sentiment Analysis Components</h4>
+     <button class=\"chatSuggest\" onclick=\"chatSuggest('What is polarity and how can I improve it?');\">What is polarity and how can I improve it?</button>
+     <button class=\"chatSuggest\" onclick=\"chatSuggest('What is subjectivity/objectivity and how can I improve it?');\">What is subjectivity/objectivity and how can I improve it?</button>
+     <h4>Theory Overview</h4>
+     <button class=\"chatSuggest\" onclick=\"chatSuggest('I want to learn more about the basics of argumentation');\">Go Back</button>
+     <h4> Evaluation </h4>
+     <button class=\"chatSuggest\" onclick=\"chatSuggest('Start Evaluation Process');\">Ready now? Start Evaluation</button>"
+  -
+    - What is polarity and how can I improve it?
+    - "<p> The polarity is depending on your chosen writing style.
+      The polarity of your text reflects your emotional preference. This can be positive or negative.
+      A negative polarity score means that your essay text is written overall negatively, a positive polarity score describe the exact opposite.
+      The targeted polarity score can depend on your writing style and the personal attitude towards the topic. You can intentionally adjust your overall polarity of your text by using
+      intentionally placed adjectives.
+      It makes a difference if you say ''I like the movie'' or if you say ''I love the movie''. Therefore adjusting your wording  will give your text a slightly different emotional state. You can also be very neutral about your
+      arguments, which will give your essay a more balanced and serious tone. As you can tell, there is no right or wrong. You have to intentionally choose a style. &#128515;</p>
+      <p>Do you know what writing style you want to choose? Bellow you will find a great explanation of the different writing styles and their use cases.</p>
+      <h4>Theory Overview</h4>
+      <button class=\"chatSuggest\" onclick=\"chatSuggest('Could you tell me about the different types of argumentative essay writing?');\">Different Writing Styles</button>
+      <button class=\"chatSuggest\" onclick=\"chatSuggest('I want to learn more about the basics of argumentation');\">Go Back</button>
+      <h4> Evaluation </h4>
+      <button class=\"chatSuggest\" onclick=\"chatSuggest('Start Evaluation Process');\">Ready now? Start Evaluation</button>"
+  -
+    - What is subjectivity/objectivity and how can I improve it?
+    - "<p> The subjectivity is depending on your chosen writing style. Staying 100% Objective while writing an argumentation is very difficult. But depending on your targeting audience,
+       you want to keep an eye on your subjectivity score. In an academic environment it is more favorable to write objective and factual based text instead of
+       being subjective. The subjectivity of your text somehow also reflects your emotional preference. 
+       The overall goal is to have a balanced point of view and therefore not to be too biased towards one side. This will allow your readers to understand various points of views instead of being convinced of your opinion.  &#128107;
+       Nevertheless, depending on your use case it may be your goal to write a subjective text or to write an objective text. Bellow you will find a list of different writing styles and their use case. With that list, you can intentionally write your text towards a direction. </p>
+       <p> This is contradictory to a persuasive writing style in which your main goal is to emphasize or change the beliefs of the reader. Therefore it should
+        be your goal to be objective in your overall writing. </p>
+       <p> You can learn more about the differences of persuasive and argumentative writing here: </p>
+       <button class=\"chatSuggest\" onclick=\"playVideo('rFIa48RZYfc');return false;\">Video: How to Write an Argumentative Essay</button>
+       <h4>Theory Overview</h4>
+       <button class=\"chatSuggest\" onclick=\"chatSuggest('Could you tell me about the different types of argumentative essay writing?');\">Different Writing Styles</button>
+       <button class=\"chatSuggest\" onclick=\"chatSuggest('I want to learn more about the basics of argumentation');\">Go Back</button>
+       <h4> Evaluation </h4>
+       <button class=\"chatSuggest\" onclick=\"chatSuggest('Start Evaluation Process');\">Ready now? Start Evaluation</button>"
+  -
+    - Start Evaluation Process
+    - "<p>I'd like to explain briefly how WritingTutor checks your essay and argumentation skills. </p>
+    <p>In order to analyse and evaluate your essay, you have to put your whole essay in the textfield that will appear, as soon as you press ''Open Textfield''.
+   <p>Your task: <i> Every country in the world has problems with pollution and damage to the environment. Do you think these problems can be solved? </i> </p>
+   <p><b>Evaluate the question within a 200 to 250 word text about the pros and cons. </b></p>
+
+     <p>  Please make sure to evaluate your final essay and put everything in the Textfield at once. This is important in order give you a complete analysis of the whole essay. Only analysing some paragraphs will give you an incomplete overview of your whole essay.
+    After receiving the results you can improve according to the results. If you need help in certain areas, I am here to help you. &#128522; </p>
+
+     <h4> Some Theory Suggestions </h4>
+     <button class=\"chatSuggest\" onclick=\"chatSuggest('What is polarity and how can I improve it?');\">What is polarity and how can I improve it?</button>
+     <button class=\"chatSuggest\" onclick=\"chatSuggest('What is subjectivity/objectivity and how can I improve it?');\">What is subjectivity/objectivity and how can I improve it?</button>
+
+     <h4> Evaluation </h4>
+     <button class=\"chatSuggest\" onclick=\"displayELEA('5001/');return false;\">Open Textfield</button>"
+  -
+    - What else can you do?
+    - "<p> Of course I am eager to help you to improve your argumentation skills, but a little fun and a short break can't hurt.</p>
+    <p>Shall I tell you my favourite joke? &#128586;</p>
+    <button class=\"chatSuggest\" onclick=\"chatSuggest('Yes');\">Yes!</button>
+    <button class=\"chatSuggest\" onclick=\"chatSuggest('Introduction');\">Back to the introduction</button>"
+  -
+    - Yes!
+    - "<p> What is the best thing about switzerland? I don't know, but the flag is a huge plus!! &#128584; &#128518;</p>
+    <button class=\"chatSuggest\" onclick=\"chatSuggest('Introduction');\">Back to the introduction</button>"
+  -
+    - Tell me a joke
+    - "<p> What is the best thing about switzerland? I don't know, but the flag is a huge plus!! &#128584; &#128518;</p>
+    <button class=\"chatSuggest\" onclick=\"chatSuggest('Could we look into the theory?');\">Back to work!</button>"
+  -
+    - Tell me a joke
+    - "<p> What is the best thing about switzerland? I don't know, but the flag is a huge plus!! &#128584; &#128518;</p>
+      <button class=\"chatSuggest\" onclick=\"chatSuggest('Could we look into the theory?');\">Back to work!</button>"
+  -
+    - Tell me a joke
+    - "<p> I saw Usain Bolt sprinting around the track shouting, ''Why did the chicken cross the road!?'' It was a running joke. &#128518</p>
+      <button class=\"chatSuggest\" onclick=\"chatSuggest('Could we look into the theory?');\">Back to work!</button>"
+  -
+    - Yes!
+    - "<p> What is the best thing about switzerland? I don't know, but the flag is a huge plus!! &#128584; &#128518;</p>
+      <button class=\"chatSuggest\" onclick=\"chatSuggest('Could we look into the theory?');\">Back to work!</button>"
+  -
+    - Yes!
+    - "<p> I saw Usain Bolt sprinting around the track shouting, ''Why did the chicken cross the road!?'' It was a running joke. &#128518</p>
+      <button class=\"chatSuggest\" onclick=\"chatSuggest('Could we look into the theory?');\">Back to work!</button>"
+  -
+    - I cannot do that
+    - "<p> Sorry, I can not do that. </p>
+    <button class=\"chatSuggest\" onclick=\"chatSuggest('Introduction');\">Back to the introduction</button>"
+  -
+    - Try again
+    - "<p> Could you please try again? </p>
+    <button class=\"chatSuggest\" onclick=\"chatSuggest('Introduction');\">Back to the introduction</button>"
+  -
+    - I didn't understand
+    - "<p> Unfortunately I didn't understand, could you rephrase your message? </p>
+    <p> If possible, try to orient yourself with the suggested buttons to prevent this. &#128522;</p>
+    <button class=\"chatSuggest\" onclick=\"chatSuggest('Introduction');\">Back to the introduction</button>"
+  -
+    - Open Email
+    - "<p> Sorry, it seems like that I can not understand your input. You can try to rephrase your question or input or you can open the Help section if you have a problem. </p>
+    <p> I provided you with an E-Mail button right bellow, if you can not find the answer to your question and want to send an E-Mail to your tutor! </p>
+    <button class=\"chatSuggest\" onclick=\"window.open('mailto:thiemo.wambsganss@unisg.ch');return false;\">send E-Mail</button>
+    <button class=\"chatSuggest\" onclick=\"chatSuggest('Introduction');\">Back to the introduction</button>"
+  -
+    - Evaluation
+    - "<p> Evaluating ... </p>"
+  -
+    - Eval failed
+    - "<p>Oh no! It looks like your input was not valid.</p>
+    <p>Please make sure that you enter correct text next time.</p>"
+

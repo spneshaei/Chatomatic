@@ -7,7 +7,7 @@ import numpy as np
 
 class Chatomatic:
     random_generator = random.Random()
-    cache = {} # TODO: Multi lang cache
+    cache = {}
     qa_databases = {}
 
     def __init__(self, file_path, language = "en"):
@@ -26,8 +26,10 @@ class Chatomatic:
         return None
 
     def find_most_similar_question(self, question, language = "en"): # From https://www.analyticsvidhya.com/blog/2021/05/build-your-own-nlp-based-search-engine-using-bm25/
-        if question in self.cache:
-            return self.cache[question]
+        if not language in self.cache:
+            self.cache[language] = {}
+        if question in self.cache[language]:
+            return self.cache[language][question]
         qa_database = self.qa_databases[language]
         tokenized_corpus = [doc.title.split(" ") for doc in qa_database.questions]
         bm25 = BM25Okapi(tokenized_corpus)
@@ -35,7 +37,7 @@ class Chatomatic:
         doc_scores = bm25.get_scores(tokenized_query)
         doc_scores = list(doc_scores)
         result = qa_database.questions[doc_scores.index(max(doc_scores))]
-        self.cache[question] = result
+        self.cache[language][question] = result
         return result
 
     def answer(self, question, language = "en"):
@@ -49,3 +51,5 @@ class Chatomatic:
 chatomatic = Chatomatic("test.json")
 print(chatomatic.answer("great, thanks"))
 print(chatomatic.answer("Great thakss"))
+print(chatomatic.answer("Great thakss"))
+print(chatomatic.answer("Gret thankks"))

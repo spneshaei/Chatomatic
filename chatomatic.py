@@ -10,12 +10,21 @@ class Chatomatic:
     cache = {}
     qa_databases = {}
 
+    def load_from_dataset(self, file_path, qa_database):
+        if file_path.endswith('.yml') or file_path.endswith('.yaml'):
+            qa_database.load_from_yaml(file_path)
+        elif file_path.endswith('.json'):
+            qa_database.load_from_json(file_path)
+
+
     def __init__(self, file_path, language = "en"):
         self.qa_databases[language] = QADatabase()
-        if file_path.endswith('.yml') or file_path.endswith('.yaml'):
-            self.qa_databases[language].load_from_yaml(file_path)
-        elif file_path.endswith('.json'):
-            self.qa_databases[language].load_from_json(file_path)
+        self.load_from_dataset(file_path, self.qa_databases[language])
+    
+    def add_dataset(self, file_path, language = "en"):
+        if not language in self.qa_databases:
+            self.qa_databases[language] = QADatabase()
+        self.load_from_dataset(file_path, self.qa_databases[language])
 
     def find_answer_to_question(self, question, language = "en"):
         qa_database = self.qa_databases[language]
@@ -50,6 +59,5 @@ class Chatomatic:
 
 chatomatic = Chatomatic("test.yml")
 print(chatomatic.answer("great, thanks"))
-print(chatomatic.answer("Great thakss"))
-print(chatomatic.answer("Great thakss"))
-print(chatomatic.answer("Gret thankks"))
+chatomatic.add_dataset("test.json", language="fr")
+print(chatomatic.answer("great, thanks", language="fr"))

@@ -7,6 +7,7 @@ import numpy as np
 
 class Chatomatic:
     random_generator = random.Random()
+    cache = {}
 
     def __init__(self, file_path):
         self.qa_database = QADatabase()
@@ -23,12 +24,16 @@ class Chatomatic:
         return None
 
     def find_most_similar_question(self, question): # From https://www.analyticsvidhya.com/blog/2021/05/build-your-own-nlp-based-search-engine-using-bm25/
+        if question in self.cache:
+            return self.cache[question]
         tokenized_corpus = [doc.title.split(" ") for doc in self.qa_database.questions]
         bm25 = BM25Okapi(tokenized_corpus)
         tokenized_query = question.split(" ")
         doc_scores = bm25.get_scores(tokenized_query)
         doc_scores = list(doc_scores)
-        return self.qa_database.questions[doc_scores.index(max(doc_scores))]
+        result = self.qa_database.questions[doc_scores.index(max(doc_scores))]
+        self.cache[question] = result
+        return result
 
     def answer(self, question):
         question = question.lower()

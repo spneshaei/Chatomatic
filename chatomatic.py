@@ -12,6 +12,8 @@ class Chatomatic:
         self.qa_database = QADatabase()
         if file_path.endswith('.yml') or file_path.endswith('.yaml'):
             self.qa_database.load_from_yaml(file_path)
+        elif file_path.endswith('.json'):
+            self.qa_database.load_from_json(file_path)
 
     def find_answer_to_question(self, question):
         for qa in self.qa_database.questions:
@@ -36,6 +38,6 @@ class Chatomatic:
         return answer
 
 
-chatomatic = Chatomatic("test.yml")
+chatomatic = Chatomatic("test.json")
 print(chatomatic.answer("great, thanks"))
 print(chatomatic.answer("Great thakss"))

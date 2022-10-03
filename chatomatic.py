@@ -48,7 +48,7 @@ class Chatomatic:
         return answer
 
 
-chatomatic = Chatomatic("test.json")
+chatomatic = Chatomatic("test.yml")
 print(chatomatic.answer("great, thanks"))
 print(chatomatic.answer("Great thakss"))
 print(chatomatic.answer("Great thakss"))
